@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    padding: 0 10%;
+}
+
+
+.nav-item {
+    display:flex;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+
+.menu{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 64px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn{
+    background: transparent;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
