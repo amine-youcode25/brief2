@@ -24,6 +24,7 @@
 .logo{
     width: 200px;
     height: auto;
+    /*padding-bottom: 30px;*/
 }
 
 
@@ -141,7 +142,7 @@ h1{
     display:grid;
     justify-content: space-between;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows:334px 334px 334px;
+    grid-template-rows:334px 334px ;
     gap: 32px;
 
 }
@@ -168,8 +169,112 @@ h1{
     align-items: center;
 }
 #loadmore{
-    color: #242565;
-    border-color: #242565;
-    margin: 0 auto;
+
+    font-size: 1.5rem;
+    color: #3D37F1;
+    border-color: #3D37F1;
+    margin: 50px auto;
     text-align: center;
+    border-radius: 100px;
+    padding: 20px 50px;
+}
+
+.illustration{
+    max-height: 120%;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+
+
+#btn_events{
+    margin-top: 20px;
+    background-color: #F5167E;
+    color: white;
+    border: none;
+    padding: 0.7rem 5rem;
+    border-radius: 30px;
+}
+#btn_subscribe{
+    margin:0;
+    background-color: #F5167E;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.banner_home{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+.brands_container{
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    margin-top: 80px;
+    padding: 6% 4%;
+    height: 520px;
+    background-color: #0A075F;
+    color: white;
+}
+.footer_bot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_container1{
+    width: 30%;
+    line-height: 30px;
+}
+
+.footer_container2 li {
+    padding: 0;
+    list-style: none;
+}
+
+.footer_container2{
+    line-height: 30px;
+}
+
+.footer_container3{
+    line-height: 30px;
+}
+.footer_container3 li {
+    padding: 0;
+    list-style: none;
+}
+.footer_container4{
+line-height: 30px;
+}
+
+.social_media{
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+}
+
+.subscribe_form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 50px;
+    gap: 64px;
+    padding: 4px 5px 4px 40px;
+    width: 364px;
+}
+hr{
+    margin-top: 80px;
+    margin-left: 6%;
+    margin-bottom: 20px;
 }
