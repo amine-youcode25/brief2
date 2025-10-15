@@ -7,18 +7,115 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-        <div><img src="logo.png" class="logo" alt="logo"/></div>
-        <div class="navtop">
-            <ul class="menu">
-                <li><a class="menu_names" href="#">Home</a></li>
-                <li><a class="menu_names" href="#">Events</a></li>
-                <li><a class="menu_names" href="#">Blog</a></li>
-                <li><a class="menu_names" href="#"><button class="btn">Login</button></a></li>
-                <li><a class="menu_names" href="#"><button class="btn">Sign Up</button></a></li>
-            </ul>
+    <div class="header_background">
+        <nav class="navbar">
+            <div><img src="images/logo.png" class="logo" alt="logo"/></div>
+            <div class="navtop">
+                <ul class="menu">
+                    <li><a class="menu_names" href="index.html">Home</a></li>
+                    <li><a class="menu_names" href="events.html">Events</a></li>
+                    <li><a class="menu_names" href="blogs.html">Blog</a></li>
+                    <li><a class="menu_names" href="login.html">
+                        <button class="btn">Login</button>
+                    </a></li>
+
+                    <li><a class="menu_names" href="signup.html">
+                        <button class="btn">Sign Up</button>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header_content">
+            <img src="images/kpop.png" height="400"/>
+            <div class="header_text">
+                <h1>SBS MTV The Kpop<br>Show Ticket Package</h1>
+                <p> Look no further! Our SBS The Show tickets are the<br>simplest way for you to experience a live
+                    Kpop<br>recording. </p>
+                <div>
+                    <a href="events.html">
+                        <button class="btn" id="Events_btn">Events</button>
+                    </a>
+                    <a href="blogs.html">
+                        <button class="btn">Blog</button>
+                    </a>
+                </div>
+            </div>
         </div>
-    </nav>
+
+    </div>
+    <!--    filter -->
+    <div class="filter_container">
+        <div class="filter">
+            <div><span>Search Event</span><br><br><input class="filter_input" value="Konser Jazz"></input></div>
+            <div><span>Place</span><br><br><input class="filter_input" value="Indonesia"></input></div>
+            <div><span>Time</span><br><br><input class="filter_input" value="Any date"></input></div>
+        </div>
+    </div>
 </header>
+
+<main class="main_container">
+    <div class="filter_container2">
+
+        <div>
+            <h1>Upcoming Events</h1>
+        </div>
+        <div>
+            <select class="options">
+                <option>Weekdays</option>
+            </select>
+            <select class="options">
+                <option>Event Type</option>
+            </select>
+            <select class="options">
+                <option>Any Category</option>
+            </select>
+        </div>
+
+    </div>
+    <div class="events_container">
+        <div class="event event1"><img src="images/Rectangle 12.png" class="events_pic" style="width: 100.5%"/>
+            <div class="textbox">
+                <div><h5>APR</h5><h2 style="color: black">14</h2></div>
+                <div style="margin-left: 10px"><strong style="color: black">Sunset Sound Festival 2025</strong><br> An open-air celebration of summer beats, live DJs, and beachside vibes.</div>
+            </div>
+        </div>
+        <div class="event event2"><img src="images/Rectangle 12-1.png" class="events_pic"/>
+            <div class="textbox">
+                <div><h5>APR</h5><h2 style="color: black">14</h2></div>
+                <div style="margin-left: 10px"><strong style="color: black">Sunset Sound Festival 2025</strong><br> An open-air celebration of summer beats, live DJs, and beachside vibes.</div>
+            </div>
+        </div>
+        <div class="event event3"><img src="images/Rectangle 12-2.png" class="events_pic"/>
+            <div class="textbox">
+                <div><h5>APR</h5><h2 style="color: black">14</h2></div>
+                <div style="margin-left: 10px"><strong style="color: black">Sunset Sound Festival 2025</strong><br> An open-air celebration of summer beats, live DJs, and beachside vibes.</div>
+            </div>
+        </div>
+        <div class="event event4" ><img src="images/Rectangle 12-3.png" class="events_pic" style="width: 100.5%"/>
+            <div class="textbox">
+                <div><h5>APR</h5><h2 style="color: black">14</h2></div>
+                <div style="margin-left: 10px"><strong style="color: black">Sunset Sound Festival 2025</strong><br> An open-air celebration of summer beats, live DJs, and beachside vibes.</div>
+            </div>
+        </div>
+        <div class="event event5"><img src="images/Rectangle 12-5.png" class="events_pic"/>
+            <div class="textbox">
+                <div><h5>APR</h5><h2 style="color: black">14</h2></div>
+                <div style="margin-left: 10px"><strong style="color: black">Sunset Sound Festival 2025</strong><br> An open-air celebration of summer beats, live DJs, and beachside vibes.</div>
+            </div>
+        </div>
+
+    </div>
+    <div style="text-align: center"><a href="events.html"><button class="btn" id="loadmore">Load Events</button></a></div>
+    </div>
+
+</main>
+
+<footer>
+
+
+</footer>
+
+
 </body>
 </html>
