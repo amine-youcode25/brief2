@@ -419,3 +419,18 @@ form>div>input{
     width: 40%;
     height: 60%;
 }
+
+.countdown{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: 100px 40px;
+    color: white;
+    text-align: center;
+    column-gap: 80px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.timer{
+    font-size: 6rem;
+}
