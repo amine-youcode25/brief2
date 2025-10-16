@@ -16,12 +16,13 @@
                     <li><a class="menu_names" href="index.html">Home</a></li>
                     <li><a class="menu_names" href="events.html">Events</a></li>
                     <li><a class="menu_names" href="blogs.html">Blog</a></li>
-                    <li><a class="menu_names" href="login.html">
-                        <button class="btn">Login</button>
-                    </a></li>
-                    <li><a class="menu_names" href="signup.html">
-                        <button class="btn">Sign Up</button>
-                    </a></li>
+                    <li><button class="btn"><a class="menu_names" href="login.html">
+                        Login</a></button>
+                    </li>
+
+                    <li><button class="btn"><a class="menu_names" href="signup.html">
+                        Sign Up
+                    </a></button></li>
                 </ul>
             </div>
         </nav>
@@ -29,11 +30,11 @@
 </header>
 <main class="main_container" id="main_log">
 
-    <form class="login_form" >
+    <form class="login_form" id="login_form" >
         <h1 style="align-self: flex-start;color: #6639D2;margin-bottom: 50px" >Login</h1>
-        <input type="email" name="email" id="email" placeholder="Email Address">
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
         <input type="password" name="password" id="password" placeholder="Password">
-        <button class="btn" id="loginbutton">Log in</button>
+        <button class="btn" id="loginbutton" type="submit">Log in</button>
     </form>
 
 </main>
@@ -108,6 +109,7 @@
     </div>
     <hr>
     <h3 style="text-align: center">Copyright © 2025 Avi Yansah</h3>
+
 
 </footer>
 </body>
