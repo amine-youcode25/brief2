@@ -71,6 +71,15 @@ background-color: #F5167E;
     min-height: 90vh;
 }
 
+.header_background_blogs{
+    background-image: url("./images/bg2.png"),url("./images/blogheader.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover,cover;
+    min-height: 90vh;
+    color: white;
+}
+
 .header_content{
     color: white;
     padding-top: 50px;
@@ -243,7 +252,7 @@ h1{
 }
 
 .brands_container{
-    padding: 10%;
+    padding: 4% 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -311,9 +320,9 @@ hr{
     margin-bottom: 20px;
 }
 
-#main_event{
-    background-color: white;
-}
+/*#main_event{*/
+/*    background-color: white;*/
+/*}*/
 
 .bloglay{
     background-color: white;
