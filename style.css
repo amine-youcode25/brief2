@@ -62,6 +62,10 @@ background-color: #F5167E;
     background-size: cover,cover;
     min-height: 90vh;
 }
+.header_background_log{
+    min-height: 90vh;
+    background-color: #242565;
+}
 
 .header_background_events{
     background-image: url("./images/eventheader.jpg");
@@ -134,7 +138,16 @@ h1{
     background-color: white;
     color: #242565;
     margin-top: 150px;
+}
 
+#main_log{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    background-color: #6639D2;
 }
 
 .options{
@@ -324,7 +337,49 @@ hr{
 /*    background-color: white;*/
 /*}*/
 
-.bloglay{
-    background-color: white;
+/*.bloglay{*/
+/*    background-colo#r: white;*/
 
+/*}*/
+
+#form-log{
+    background-color: #8454F5;
+}
+
+
+
+.login_form{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    height: 450px;
+    width: 450px;
+    background-color: #c0c0c0 ;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px darkblue;
+}
+
+
+form input{
+    margin: 15px ;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding:  0 7%;
+    box-shadow: 1px 1px 5px darkgrey;
+}
+
+#loginbutton{
+    align-self: flex-end;
+    margin-top: 20px;
+    font-size: 1.125rem;
+    padding: 0.7rem 2rem;
+    background-color: #6639D2;
+    border: none;
+    box-shadow: 1px 1px 5px darkgrey;
 }
