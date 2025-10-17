@@ -101,7 +101,7 @@ background-color: #F5167E;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .header_background_blogs{
@@ -109,7 +109,7 @@ background-color: #F5167E;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover,cover;
-    min-height: 90vh;
+    min-height: 100vh;
     color: white;
 }
 
@@ -225,6 +225,7 @@ h1{
     background-color: white;
     box-shadow: 1px 1px 5px darkgrey;
     border-radius: 20px;
+    font-size: 16px;
 }
 .event4{
     grid-column: 1/3;
@@ -239,6 +240,7 @@ h1{
 .textbox{
     font-family: dm;
     padding-left: 1rem;
+    padding-right: 0.5rem;
     padding-top: 1rem;
     display: flex;
 }
@@ -483,6 +485,6 @@ form>div>input{
     font-size: 6rem;
     font-family: sans-serif ;
     color: #FFFFFF;
-    opacity: .6;
+    opacity: .8;
     font-weight: normal;
 }
