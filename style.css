@@ -8,6 +8,25 @@
 
 }
 
+@font-face{
+    font-family: 'paythone';
+    src: url('fonts/poppins-latin-600-normal.ttf');
+}
+
+@font-face{
+    font-family: 'dm';
+    src: url("fonts/dm-sans-latin-600-normal.ttf");
+}
+
+@font-face{
+    font-family: 'fugaz';
+    src: url("fonts/fugaz-one-latin-400-normal.ttf");
+}
+
+h3{
+    font-family: 'dm';
+    font-size: 1em;
+}
 .navbar{
 
     display:flex;
@@ -52,6 +71,8 @@
     text-decoration: none;
     list-style: none;
 }
+
+
 #Events_btn{
 background-color: #F5167E;
     border: none;
@@ -216,6 +237,7 @@ h1{
 }
 
 .textbox{
+    font-family: dm;
     padding-left: 1rem;
     padding-top: 1rem;
     display: flex;
@@ -399,7 +421,7 @@ form>div>input{
     margin: 0;
 }
 
-#loginbutton{
+#loginbutton1{
     align-self: flex-end;
     margin-top: 20px;
     font-size: 1.125rem;
@@ -407,6 +429,32 @@ form>div>input{
     background-color: #6639D2;
     border: none;
     box-shadow: 1px 1px 5px darkgrey;
+    font-family: fugaz;
+}
+
+#signupbutton{
+    align-self: flex-end;
+    margin-top: 20px;
+    font-size: 1.125rem;
+    padding: 0.5rem 2rem;
+    background-color: #6639D2;
+    border: none;
+    box-shadow: 1px 1px 5px darkgrey;
+    font-family: fugaz;
+}
+
+#logintitle{
+    align-self: flex-start;
+    color: #6639D2;
+    margin-bottom: 20px;
+    font-family: fugaz;
+}
+
+#sign_title{
+    align-self: flex-start;
+    color: #6639D2;
+    margin-bottom: 50px;
+    font-family: fugaz;
 }
 
 
@@ -433,4 +481,8 @@ form>div>input{
 
 .timer{
     font-size: 6rem;
+    font-family: sans-serif ;
+    color: #FFFFFF;
+    opacity: .6;
+    font-weight: normal;
 }
